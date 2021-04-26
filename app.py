@@ -13,4 +13,4 @@ flat_data.append(img1_resized.flatten())
 flat_data = np.array(flat_data)
 op = model.predict(flat_data)
 if st.button('Predict'):
-  st.title(op[0])
+  st.title(op[0]) 
