@@ -1,3 +1,4 @@
 joblib==1.0.1
 streamlit==0.79.0
-skimage==0.16.2
+skimage.io==0.16.2
+skimage.transform==0.16.2
