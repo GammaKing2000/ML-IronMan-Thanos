@@ -6,6 +6,7 @@ import joblib
 model = joblib.load('img_recog_model')
 st.title('Infinity War Recognizer')
 ip = st.text_input('Enter image URL')
+st.write(ip)
 flat_data = []
 img1 = imread(ip)
 img1_resized = resize(img1,(150,150,3))
