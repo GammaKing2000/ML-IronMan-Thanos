@@ -6,6 +6,7 @@ import joblib
 model = joblib.load('img_recog_model')
 st.title('Infinity War Recognizer')
 st.text('Enter image URL of Ironman or Thanos and the model will predict what it is')
+st.text('Preferably use pintrest for images')
 ip = st.text_input('Enter image URL')
 flat_data = []
 if st.button('Predict'):
