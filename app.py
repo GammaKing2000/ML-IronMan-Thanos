@@ -1,4 +1,4 @@
-from skimage.io import imread, imshow
+from skimage.io import imread
 from skimage.transform import resize
 import streamlit as st
 import numpy as np
@@ -14,10 +14,4 @@ flat_data = np.array(flat_data)
 op = model.predict(flat_data)
 if st.button('Predict'):
   st.title(op[0]) 
-  imshow(ip)
-# numpy==1.19.5
-#joblib==1.0.1
-#scikit_image==0.16.2
-#skimage==0.0
-#streamlit==0.80.0
-
+  st.image(img1)
