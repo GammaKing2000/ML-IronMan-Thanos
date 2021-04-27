@@ -2,4 +2,4 @@ numpy
 joblib
 scikit_image
 streamlit
-scikit_learn==0.22.1
+scikit_learn
